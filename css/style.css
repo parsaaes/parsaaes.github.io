@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Pacifico&display=swap');
+
+  html,body {
+    height: 100%;
+    width: 100%;
+  }
+
+  a {
+    outline: none;
+  }
+
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inner {
+    text-align: center;
+    margin: auto;
+  }
+
+  body {
+    animation: backgroundColor 60s infinite linear alternate;
+  }
+
+  .intro {
+    font-family: 'Pacifico';
+  }
+
+  .links {
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-radius: 10px;
+    padding: 15px;
+    background:rgb(245, 245, 245);
+    border: 3px solid rgb(226, 226, 226);
+    color: gray;
+    text-decoration: none;
+  }
+
+  .links:hover {
+    text-decoration: underline;
+    color:  rgb(92, 92, 92);
+  }
+
+  .username {
+    background: #f1f1f1 none repeat scroll 0 0;
+    font-family: monospace;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    font-size: 90%;
+    margin: 0 0.2rem;
+    padding: 0.2rem 0.5rem;
+    white-space: nowrap;
+  }
+
+  @keyframes backgroundColor {
+    0% {background: #41ffc6;}
+    33% {background: #2d8bff;}
+    66% {background: #f646fff7;}
+    100% {background: #f95b5b;}
+  }

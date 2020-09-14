@@ -18,59 +18,21 @@
  
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
   <link type="text/css" sizes="576x576" rel="apple-touch-icon-precomposed" href="images/webclip.png?v=1" />
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
-  <style>
-    body {
-      animation: backgroundColor 60s infinite linear alternate;
-    }
-    .intro {
-      font-family: 'Pacifico';
-    }
-
-    .links {
-      display: block !important;
-    }
-
-    .myid {
-    background: #f1f1f1 none repeat scroll 0 0;
-    font-family: monospace,monospace;
-    border: 1px solid #e1e1e1;
-    border-radius: 4px;
-    font-size: 90%;
-    margin: 0 0.2rem;
-    padding: 0.2rem 0.5rem;
-    white-space: nowrap;
-    }
-
-    @keyframes backgroundColor {
-      0% {background: #FFFFFF;}
-      33% {background: #18ffff;}
-      66% {background: #7e57c2;}
-      100% {background: #ef5350;}
-      
-    }
-
-  </style>
-
-
 
 </head>
 <body>
 
   <div class="container">
-    <div class="row">
-      <div class="intro one-half column" style="margin-top: 25%">
-        <h1>Hi, I'm Parsa Eskandarnejad.</h1>
+      <div class="inner">
+        <h1 class="intro">Hi, I'm Parsa Eskandarnejad.</h1>
+        <br>
+        <div class="inner">
+          <a class="links" href="https://www.linkedin.com/in/parsa-eskandarnejad" target="_blank" style="background:#FFFFFF;">LINKEDIN</a>
+          <a class="links" href="https://github.com/parsaaes" target="_blank" style="background:#FFFFFF;">GITHUB</a>
+        </div>
       </div>
-      <div class="one-half column" style="margin-top: 25%">
-        <a class="links button" href="http://ceit.aut.ac.ir/~9531003" target="_blank" style="background:#FFFFFF;">About me</a>
-        <!--
-          <a class="links button button-primary" target="_blank" href="http://parsaa.es/lab">Old lab</a>
-        -->
-          <span class="myid">@parsaaes</span>
-      </div>
-    </div>
   </div>
 </body>
 </html>
